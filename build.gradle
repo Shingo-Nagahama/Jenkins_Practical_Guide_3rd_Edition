@@ -1,7 +1,6 @@
 plugins {
     id 'java'
     id 'checkstyle'
-    id 'findbugs'
     id 'jacoco'
     id 'war'
 }
@@ -36,14 +35,6 @@ checkstyleMain {
 checkstyleTest {
     configFile = file('./config/checkstyle/sun_checks.xml')
     excludes = ['**/*']
-}
-
-findbugsMain {
-    ignoreFailures = true
-}
-
-findbugsTest {
-    ignoreFailures = true
 }
 
 test {
