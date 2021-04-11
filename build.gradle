@@ -23,7 +23,7 @@ dependencies {
                     'javax.servlet.jsp:javax.servlet.jsp-api:2.3.1'
     implementation 'junit:junit:4.13.2',
 //                'org.easymock:easymock:3.4'
-    checkstyle 'com.puppycrawl.tools:checkstyle:6.11.2'
+    implementation 'com.puppycrawl.tools:checkstyle:8.41.1'
 }
 
 checkstyleMain {
